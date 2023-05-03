@@ -1,22 +1,18 @@
-<<<<<<< HEAD
-ABC.exe  : main.o big2.o fact.o rev.o big3.o pall.o sum2.o fibon.o
-=======
-ABC.exe : main.o big2.o fact.o rev.o big3.o pall.o sum2.o fibon.o
->>>>>>> 7afccdba481c4b2a564921965f5e75f69b24a0fb
+ABC.exe:main.o big2.o fact.o rev.o big3.o pall.o sum2.o fibon.o
 	gcc -o ABC.exe main.o big2.o fact.o rev.o big3.o pall.o sum2.o fibon.o
-main.o : main.c
+main.o:main.c
 	gcc -c main.c
-big2.o : big2.c
+big2.o:big2.c
 	gcc -c big2.c
-fact.o : fact.c
+fact.o:fact.c
 	gcc -c fact.c
-rev.o : rev.c
+rev.o:rev.c
 	gcc -c rev.c
-big3.o : big3.c
+big3.o:big3.c
 	gcc -c big3.c
-pall.o : pall.c
+pall.o:pall.c
 	gcc -c pall.c
-sum2.o : sum2.c
+sum2.o:sum2.c
 	gcc -c sum2.c
-fibon.o : fibon.c
+fibon.o:fibon.c
 	gcc -c fibon.c
